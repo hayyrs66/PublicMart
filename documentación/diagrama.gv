@@ -1,0 +1,20 @@
+digraph ProgramaFacturacion {
+    node [shape=rectangle];
+    Inicio [shape=oval];
+    Inicio -> "Mostrar opciones";
+    "Mostrar opciones" -> "Facturación" [label="1. Facturación"];
+    "Mostrar opciones" -> "Reportes de facturación" [label="2. Reportes de facturación"];
+    "Mostrar opciones" -> "Cerrar programa" [label="3. Cerrar programa"];
+    "Facturación" -> "Pantalla para ingresar datos de cliente";
+    "Pantalla para ingresar datos de cliente" -> "Ingresar código de producto y cantidad";
+    "Ingresar código de producto y cantidad" -> "Agregar producto a la factura" [label="Código válido y cantidad mayor a cero"];
+    "Agregar producto a la factura" -> "Preguntar si desea agregar otro producto";
+    "Preguntar si desea agregar otro producto" -> "Ingresar código de producto y cantidad" [label="Sí"];
+    "Preguntar si desea agregar otro producto" -> "Continuar con la facturación" [label="No"];
+    "Continuar con la facturación" -> "Preguntar método de pago";
+    "Preguntar método de pago" -> "Calcular impuestos y mostrar factura" [label="En efectivo"];
+    "Preguntar método de pago" -> "Calcular puntos acumulados y mostrar factura" [label="Con tarjeta de crédito"];
+    "Calcular impuestos y mostrar factura" -> "Mostrar opciones";
+    "Calcular puntos acumulados y mostrar factura" -> "Mostrar opciones";
+    "Cerrar programa" -> Fin [shape=oval];
+}

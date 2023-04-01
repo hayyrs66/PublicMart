@@ -1,0 +1,8 @@
+C:\Users\devri\source\repos\proyecto_practico\proyecto_practico\obj\Debug\proyecto_practico.csproj.AssemblyReference.cache
+C:\Users\devri\source\repos\proyecto_practico\proyecto_practico\obj\Debug\proyecto_practico.csproj.SuggestedBindingRedirects.cache
+C:\Users\devri\source\repos\proyecto_practico\proyecto_practico\obj\Debug\proyecto_practico.csproj.CoreCompileInputs.cache
+C:\Users\devri\source\repos\proyecto_practico\proyecto_practico\bin\Debug\proyecto_practico.exe.config
+C:\Users\devri\source\repos\proyecto_practico\proyecto_practico\bin\Debug\proyecto_practico.exe
+C:\Users\devri\source\repos\proyecto_practico\proyecto_practico\bin\Debug\proyecto_practico.pdb
+C:\Users\devri\source\repos\proyecto_practico\proyecto_practico\obj\Debug\proyecto_practico.exe
+C:\Users\devri\source\repos\proyecto_practico\proyecto_practico\obj\Debug\proyecto_practico.pdb
